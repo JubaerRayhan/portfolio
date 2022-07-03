@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+   background:#636e72;
+    background-size: cover;
+}
+
+/*nav starts here*/
+.navbar{
+    background-color:darkcyan;
+    padding:10px 2%;
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+ /*for mobile*/
+ [class*="col-"]{
+    width: 100%;
+ }
+h1{
+    font-size: 45px;
+    text-align:center;
+    margin-left:10px;
+    color:black;
+    padding:5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+h1::first-letter{
+    font-size: 4rem;
+}
+.logo img{
+    height: 180px;
+    width:180px ;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+}
+.navbar::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+.menulink{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}.menulink a{
+    padding: 5px;
+    font-weight: bold;
+    margin:10px 10px;
+    text-align:center;
+}
+.menulink a:hover{
+    border-bottom: 3px solid white;
+}
+.hrdesign1{
+    border: 3px solid white;
+    border-bottom: none;
+    width: 90%;
+    
+}
+/*nav ends here*/
+/*profile design starts here*/
+
+.profile{
+    padding:40px 10px;
+    text-align: center;
+    position: relative;
+    background-color:darkcyan;
+    border-radius: 10px;
+   background: transparent;
+}
+.one{
+    position:absolute;
+    height: 80px;
+    width: 100px;
+    top: 14px;
+    right: 20px;
+    transition: width 1s;
+}
+.para h2{
+    font-size:35px ;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    color:white;
+}
+.para p{
+    font-size: 20px;
+    color:snow;
+    text-transform: capitalize;
+}
+.two{
+    position:absolute;
+    height: 80px;
+    width: 100px;
+    left: 20px;
+    transition: width 1s;
+}
+ .two:hover{
+    width: 110px;
+    height: 90px;
+}
+.one:hover{
+    width: 110px;
+    height: 90px;  
+}
+
+/*profile dwsign ends here*/
+/*about me starts here*/
+.about{
+    font-family: 'Nunito', sans-serif;
+    background-color:darkcyan;
+    color:white;
+    text-align: center;
+     border-radius: 10px;   
+     background: transparent;
+}
+.hrdesign2{
+    border: 8px dotted white;
+    border-bottom: none;
+    width: 90%;   
+}
+.about::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+.about h2{
+    font-size:27px ;
+    color: black;
+    text-align: center;
+    margin-top:20px;
+}
+.myimage .rayhan{
+    border:4px solid black;
+    border-radius:25px 0px;
+    width: 400px;
+    height: 500px;
+}
+.descrip p{
+    text-align: center;
+    font-size: 20px;
+}
+.descrip a{
+    font-size: 20px;
+}
+.descrip p a{
+    color: white;
+}
+.btn2{
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    padding: 6px 14px;
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background: transparent;
+}
+/*about me ends here*/
+/*experience starts here*/
+.experience{
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.work-experience:hover{
+    box-shadow: 0px 4px 8px 5px black;
+}
+.work-experience{
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 4px;
+    transition: 0.3s;
+    height: 500px;
+    margin: 3px;
+    background: transparent;
+}
+.icon1 img{
+    width: 60px;
+    height:60px;
+    padding: 8px;
+   border: 2px solid white;
+   border-radius: 50px;
+}
+.icon1{
+    text-align: center;
+}
+    .title h2{
+        text-align: center;
+        background-color: white;
+        background: transparent;
+    }
+    .experience::after{
+        content: '';
+        display: table;
+        clear: both;
+    }
+/*experience ends here*/
+/*education starts here*/
+.education{ 
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 4px;
+    transition: 0.3s;
+    height: 500px;
+    margin: 3px;
+    background: transparent;
+}
+.education:hover{
+    box-shadow: 0px 4px 8px 5px black;
+}
+.icon2 img{
+    width: 60px;
+    height:60px;
+    padding: 8px;
+   border: 2px solid white;
+    border-radius: 50px;}
+.icon2{
+    text-align: center;
+}
+.education::after{
+    content: '';
+        display: table;
+        clear: both;
+}
+/*education ends here*/
+/*skill starts here */
+.skill{
+   
+    background-color: darkcyan;
+    border-radius: 5px;
+    padding: 4px;
+    transition: 0.3s;
+    height: 500px;
+    margin: 3px;
+    background: transparent;
+}
+.skill:hover{
+    box-shadow: 0px 4px 8px 5px black;
+}
+.icon3 img{
+    width: 60px;
+    height:60px;
+    padding: 8px;
+   border: 2px solid white;
+    border-radius: 50px;}
+.icon3{
+    text-align: center;
+}
+.skill-container li{
+    list-style: none;
+    margin: 25px;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.skill-container li::before{
+    content: '';
+    position: absolute;
+    background-color: #e67e22;
+    height: 10px;
+    width: 100%;
+    left: 0;
+    top:45px;
+    border-radius:1000px;
+}
+.skill-container li::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    background-color:#EA2027;
+    height: 10px;
+    width:0px;
+    top: 45px;
+    border-radius:1000px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count:3;
+}
+.skill-container li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+.skill-container li.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 80%;
+    }
+}
+.skill-container li.js::after{
+    animation-name: js;
+}
+@keyframes js{
+    to{
+        width: 70%;
+    }
+}
+.skill-container li.c::after{
+    animation-name: c;
+}
+@keyframes c{
+    to{
+        width: 75%;
+    }
+}
+.skill-container li.python::after{
+    animation-name: python;
+}
+@keyframes python{
+    to{
+        width: 50%;
+    }
+}
+.skill::after{
+    
+        content: '';
+            display: table;
+            clear: both;
+}
+/*skill ends here */
+/*contactme starts here*/
+    .hrdesign{
+        border: 5px dotted white;
+        border-bottom: none;
+        width: 200px;
+    }
+    .contactme{
+        background-color:teal;
+        border-radius: 10px;
+        margin: 10px 5px;
+        background: transparent;
+        margin-top: 30px;
+    }
+    .achivment{
+        text-align: center;
+        font-weight: bold;
+    }
+.connect{
+    text-align: center;
+}
+.connect input, textarea{
+    text-align: center;
+    width: 100%;
+    resize: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+ .btn1{
+   border: none;
+   background-color:red;
+   color: white;
+   margin: 10px;
+   padding: 5px 10px;
+   border: 2px solid black;
+   border-radius: 20px;
+   background: transparent;
+}
+.btn3{
+    border: none;
+    background-color:red;
+    color: white;
+    margin: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    background: transparent;
+}
+.connectlink{
+    text-align: center;
+}
+.medialogo{
+    text-align: center;
+    
+}
+
+ a ,i{
+    margin-top: 50px;
+    font-size: 30px;
+    margin: 10px;
+}
+  a i:hover{
+     color:white;
+}
+
+.contactme::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*contactme ends here*/
+/*footer starts here*/
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.footer .fmenu a{
+    font-size: 20px;
+    display: block;
+    color: white;
+}
+.footer .fmenu a:hover{
+    color:red;
+}
+
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*footer ends here*/
